@@ -1,0 +1,33 @@
+ .timer {
+    display: flex;
+    /* justify-content: center; */
+    margin-left:  300px;
+  }
+  
+  .field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    width: 100px;
+    padding: 10px 0 10px 0;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+  }
+  
+  .field:last-child {
+    margin-right: 0;
+  }
+  
+  .value {
+    font-weight: 700;
+    font-size: 40px;
+  }
+  
+  .label {
+    color: red;
+  }
+
+
+  
